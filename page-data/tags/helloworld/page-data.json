@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/helloworld/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/helloworldpost/"},"frontmatter":{"title":"print(\"Hello World\")"}}}]}},"pageContext":{"tag":"helloworld"}},"staticQueryHashes":["1734433022"]}
