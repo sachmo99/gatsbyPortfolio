@@ -7,7 +7,7 @@ module.exports = {
     author: 'Sai Chandra Mouli',
     description: 'Portfolio site built with Gatsby, React with template from Knochenmark(github)',
     url: 'https://sachmo99.github.io',
-    pathPrefix: '/portfolio',
+    //pathPrefix: '/gatsbyPortfolio',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
