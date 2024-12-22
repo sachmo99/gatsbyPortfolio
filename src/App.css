@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.interactive-clock {
+  position: absolute;
+  top:9%;
+  left:10%;
+  height: 20vh;
+  width:12vw;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.interactive-computer {
+  position: absolute;
+  top: 43%;
+  left:39%;
+  height:30vh;
+  width:23vw;
+  background-color: aqua;
+  opacity: 0.2;
+}
+
+.interactive-picture {
+  position: absolute;
+  top: 5%;
+  left:63%;
+  height:47vh;
+  width:20vw;
+  background-color:#8a2ce2;
+  opacity: 0.2;
+}
+
+.interactive-shelf {
+  position: absolute;
+  top: 70%;
+  left:69%;
+  height:25vh;
+  width:14vw;
+  background-color:aquamarine;
+  opacity: 0.2;
+}
+
+
+
+
+
+

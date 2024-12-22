@@ -1,0 +1,90 @@
+{
+    "aboutme_content":{
+        "computer":{
+            "heading": "REACH ME...",
+            "content":"<p>I love having a conversation on latest Tech &#128151;. Get in touch! </p>",
+            "button": [{
+                "text": "Contact Me",
+                "link": "/contactme"
+            },
+            {
+                "text": "Download Resume",
+                "link": "/resume"
+            },{
+                "text":"LinkedIn",
+                "link":"https://www.linkedin.com/in/saichandramouli-tadiparthi/",
+                "attributes": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "text":"GitHub",
+                "link":"https://github.com/sachmo99",
+                "attributes": {
+                    "target": "_blank"
+                }
+            }]
+        },
+        "shelf": {
+            "heading": "PROFILE",
+            "content": "<p> Hi! I am <strong>Sai Chandra Mouli T.</strong> Get to know me!</p>",
+            "button": [{
+                "text": "About Me",
+                "link": "/aboutme"
+            }]
+        },
+        "frames": {
+            "heading":"HOBBIES",
+        "content": "<p>I love writing, I love drawing and I love a hot cup of Chai!</p>",
+        "button":[{
+            "text":"My Blog",
+            "link":"https://sachmoadi.blogspot.com/",
+            "attributes": {
+                "target": "_blank"
+            }
+        }]
+    }
+    },
+    "time_quotations": [
+        {
+            "quote":"Time is what we want most, but what we use worst.",
+            "author":"William Penn"
+        },
+        {
+            "quote":"The two most powerful warriors are patience and time.",
+            "author":"Leo Tolstoy"
+        },
+        {
+            "quote":"Time flies over us, but leaves its shadow behind.",
+            "author":"Nathaniel Hawthorne"
+        },
+        {
+            "quote":"Time is a created thing. To say 'I don't have time,' is like saying, 'I don't want to.",
+            "author":"Lao Tzu"
+        },
+        {
+            "quote":"Time is an equal opportunity employer. Each human being has exactly the same number of hours and minutes every day.",
+            "author":"Denis Waitley"
+        },
+        {
+            "quote":"Time is a file that wears and makes no noise.",
+            "author":"Isaac Watts"
+        },
+        {
+            "quote":"Time is a sort of river of passing events, and strong is its current; no sooner is a thing brought to sight than it is swept by and another takes its place, and this too will be swept away.",
+            "author":"Marcus Aurelius"
+        },
+        {
+            "quote":"Lost time is never found again.",
+            "author":"Benjamin Franklin"
+        },
+        {
+            "quote":"Time and tide wait for no man.",
+            "author":"Geoffrey Chaucer"
+        },
+        {
+            "quote":"Time is the most valuable thing a man can spend.",
+            "author":"Theophrastus"
+        }
+    ]
+}
