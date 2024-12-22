@@ -5,11 +5,11 @@
             "content":"<p>I love having a conversation on latest Tech &#128151;. Get in touch! </p>",
             "button": [{
                 "text": "Contact Me",
-                "link": "/contactme"
+                "link": "/#/contactme"
             },
             {
                 "text": "Download Resume",
-                "link": "/resume"
+                "link": "/#/resume"
             },{
                 "text":"LinkedIn",
                 "link":"https://www.linkedin.com/in/saichandramouli-tadiparthi/",
@@ -30,7 +30,7 @@
             "content": "<p> Hi! I am <strong>Sai Chandra Mouli T.</strong> Get to know me!</p>",
             "button": [{
                 "text": "About Me",
-                "link": "/aboutme"
+                "link": "/#/aboutme"
             }]
         },
         "frames": {
