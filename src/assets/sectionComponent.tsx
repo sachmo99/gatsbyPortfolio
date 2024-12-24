@@ -11,7 +11,7 @@ interface sectionComponentI {
 
 const SectionComponent: React.FC<sectionComponentI> = ({ sectionName,className = null,children }) => {
     return(
-        <div className={`w-screen h-screen bg-white flex flex-col ${className}`}>
+        <div className={`w-screen flex flex-col ${className}`}>
             <Header sectionName={sectionName}/>
             <div className="flex-grow">
             {children}

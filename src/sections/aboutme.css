@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.sectionBackground {
+    /* background: #fdf5df; */
+    background: #ffffff;
+    /* color: #5ebec4; */
+    /* color: #000000; */
+    color: #2568fb;
+}
+.fontClass {
+    font-family: "Inter",serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size:xx-large
+}

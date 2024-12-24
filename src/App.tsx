@@ -4,7 +4,8 @@ import Popup  from './popup';
 import jsonContent from './assets/content.json';
 import DOMPurify from 'dompurify';
 import CurtainAnimation from "./welcome";
-
+//import resume from "./assets/Tadiparthi, Sai Chandra Mouli Resume - 2024.pdf"; // Import the PDF file
+import SnowEffect from "./assets/snowEffect";
 type ButtonAttributes = {
   [key: string]: string
 }
@@ -34,6 +35,7 @@ const App: React.FC = () => {
   const [popupHeading, setPopupHeading] = useState<string | null > (null);
   const [ntpTime, setNTPTime] = useState<string | null>(null);
   const [showCurtain, setShowCurtain] = useState<boolean | null>(true);
+
 
 
   useLayoutEffect(() =>{
@@ -125,23 +127,24 @@ const App: React.FC = () => {
     <div className="relative w-screen h-screen">
       {showCurtain && <CurtainAnimation />}
       <div className="absolute w-screen min-h-screen overflow-scroll z-0 top-0 left-0">
-        <img src="/portfolio_me.jpg" className="w-full h-screen min-h-screen object-fill"></img>
+        { /*<img src="/portfolio_me.jpg" className="w-full h-screen min-h-screen object-fill"></img> */ }
+        <SnowEffect />
       </div>
             {/* Interactive Elements */}
       <div className="absolute z-2 h-[100%] w-[100%] top-0 left-0 flex">
-        <div className="interactive-clock"
+        <div className="interactive-clock pulsing-div"
         onClick={() => handleItemClick("clock")}>
         </div>
       <div
-        className="interactive-computer"
+        className="interactive-computer pulsing-div"
         onClick={() => handleItemClick("computer")}
       ></div>
       <div
-        className="interactive-picture"
+        className="interactive-picture pulsing-div"
         onClick={() => handleItemClick("frames")}
       ></div>
       <div
-        className="interactive-shelf"
+        className="interactive-shelf pulsing-div"
         onClick={() => handleItemClick("shelf")}
       ></div>
 

@@ -35,7 +35,7 @@
         },
         "frames": {
             "heading":"HOBBIES",
-        "content": "<p>I love writing, I love drawing and I love a hot cup of Chai!</p>",
+        "content": "<p>I love writing, I love drawing and I love a hot cup of Chai ☕!</p>",
         "button":[{
             "text":"My Blog",
             "link":"https://sachmoadi.blogspot.com/",
@@ -44,6 +44,22 @@
             }
         }]
     }
+    },
+    "work_experience": {
+        "present": {
+            "company": "Cisco Systems India Pvt. Ltd.",
+            "role": "Software Engineer",
+            "stack": "Python (Flask + FastAPI), Java (Spring Framework), React, Kafka, CICD, Docker, Kubernetes, Airflow, Ansible"
+        },
+        "past" : [
+            {
+                "company": "Cisco Systems India Pvt. Ltd.",
+                "role": "Software Engineering Intern",
+                "stack": "Kafka, Python"
+            }
+            
+
+        ]
     },
     "time_quotations": [
         {

@@ -8,7 +8,8 @@
   left:10%;
   height: 20vh;
   width:12vw;
-  background-color: black;
+  /* background-color: black; */
+  background-color: #f5f5f5;
   opacity: 0.2;
 }
 
@@ -18,8 +19,9 @@
   left:39%;
   height:30vh;
   width:23vw;
-  background-color: aqua;
+  /* background-color: aqua; */
   opacity: 0.2;
+  background-color: #f5f5f5;
 }
 
 .interactive-picture {
@@ -28,8 +30,9 @@
   left:63%;
   height:47vh;
   width:20vw;
-  background-color:#8a2ce2;
+  /* background-color:#8a2ce2; */
   opacity: 0.2;
+  background-color: #f5f5f5;
 }
 
 .interactive-shelf {
@@ -38,8 +41,25 @@
   left:69%;
   height:25vh;
   width:14vw;
-  background-color:aquamarine;
+  /* background-color:aquamarine; */
   opacity: 0.2;
+  background-color: #f5f5f5;
+}
+
+.pulsing-div {
+  border-radius: 50%; /* Makes it a circle */
+  animation: pulse 2s infinite; /* Pulsing effect */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Initial size */
+    opacity: 0.2; /* Slightly transparent */
+  }
+  100% {
+    transform: scale(2); /* Back to original size */
+    opacity: 0.0; /* Back to initial transparency */
+  }
 }
 
 
